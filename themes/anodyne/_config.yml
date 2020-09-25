@@ -1,0 +1,49 @@
+# Logo 标志
+logo_image_source: https://s1.ax1x.com/2020/07/16/UrQNPP.png
+
+# Index Page  主页配置
+index_banner_text: 欢迎来到雪灵喵●'◡'●
+index_banner_text_secondary: 好文章易学习，好工具助学习。
+index_font_awesome_icon_css: fa fa-magic
+
+# Header 顶部菜单
+menu:
+  首页: /
+  归档: /archives
+  标签: /tags
+  分类: /categories
+  关于: /about.html
+  联系: /contact.html
+
+# Post  # 默认帖子标题，默认帖子图标。
+default_post_title: Untitled
+default_post_icon: fa-file-text-o
+
+# Archive Date Format 存档日期格式
+archive_date_format: MMM YYYY
+archive_font_awesome_icon_css: fa-folder-open
+
+# About Widget  # 文章右侧关于部分内容。
+about_widget_avatar_url: https://res.cloudinary.com/miku52/image/upload/v1547017613/52miku.top_images/logo.png
+about_widget_text: "	&nbsp;	&nbsp;如果此文章对你有所帮助，刚好在你能力范围内，请多多支持无论是转发还是打赏小编在这里谢过大家了! </br>	&nbsp;	&nbsp;如果你也有好工具，好文章欢迎分享，可以通过联系板块中的邮件告知。</br><img src='https://s1.ax1x.com/2020/07/16/UBfcP1.png'/> </br> &nbsp;&nbsp;关注微信公号不错过好文章。</br> <img src='https://s1.ax1x.com/2020/07/20/U445kj.png' alt='U445kj.png'/>"
+
+
+# Comments.
+comments:
+  # Disqus comments
+  disqus_shortname: 
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Social Media Platforms # 社交账户
+social_platforms:
+  - url: https://space.bilibili.com/26012356/#/
+    fa_icon: fa-television
+  - url: https://jq.qq.com/?_wv=1027&k=5MpzV8n
+    fa_icon: fa-qq
+
+
+# Footer about 关于页脚
+footer_about: "@ 2020 雪灵喵| Design & Hexo <a class=\"link dim white\" href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
+
