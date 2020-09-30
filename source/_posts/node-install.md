@@ -12,7 +12,7 @@ keywords: nodejs安装教程,nodejs详细安装,node配置淘宝镜像
 
 
 通过node官网提供的.msi文件安装不利于版本控制。本文章讲解一下NVM安装nodejs。
-[![0AmTHS.png](https://s1.ax1x.com/2020/09/27/0AmTHS.png)](https:imgchr.com/i/0AmTHS)
+![0AmTHS.png](https://s1.ax1x.com/2020/09/27/0AmTHS.png)
 
 **安装注意事项;**
 在安装NVM之前，您需要卸载任何现有版本的node.js。同时删除可能保留的任何现有nodejs安装目录（例如，“C：\ Program Files \ nodejs”）。NVM生成的符号链接不会覆盖现有的（甚至是空的）安装目录。
@@ -25,43 +25,42 @@ keywords: nodejs安装教程,nodejs详细安装,node配置淘宝镜像
 ### 下载nvm
 
 1. 打开GitHub
-[![0AmInf.md.png](https://s1.ax1x.com/2020/09/27/0AmInf.md.png)](https://imgchr.com/i/0AmInf)
-[![0AmHAg.md.png](https://s1.ax1x.com/2020/09/27/0AmHAg.md.png)](https://imgchr.com/i/0AmHAg)
-
+![0AmInf.md.png](https://s1.ax1x.com/2020/09/27/0AmInf.md.png)
+![0AmHAg.md.png](https://s1.ax1x.com/2020/09/27/0AmHAg.md.png)
 2. 搜索nvm-windows,并打开该项目。
-[![0AmoB8.md.png](https://s1.ax1x.com/2020/09/27/0AmoB8.md.png)](https://imgchr.com/i/0AmoB8)
+![0AmoB8.md.png](https://s1.ax1x.com/2020/09/27/0AmoB8.md.png)
 3. 往下滚动网页，选择Releases 
-[![0Am4jP.png](https://s1.ax1x.com/2020/09/27/0Am4jP.png)](https://imgchr.com/i/0Am4jP)
+![0Am4jP.png](https://s1.ax1x.com/2020/09/27/0Am4jP.png)
 4. 点击nvm-setup.zip下载。
-[![0AmbNQ.md.png](https://s1.ax1x.com/2020/09/27/0AmbNQ.md.png)](https://imgchr.com/i/0AmbNQ)
+![0AmbNQ.md.png](https://s1.ax1x.com/2020/09/27/0AmbNQ.md.png)
 
 ### 安装nvm
 
 1. 解压压缩包。
 2. 双击nvm-setup.exe运行安装程序。
-[![0Amqhj.png](https://s1.ax1x.com/2020/09/27/0Amqhj.png)](https://imgchr.com/i/0Amqhj)
+![0Amqhj.png](https://s1.ax1x.com/2020/09/27/0Amqhj.png)
 3. 按以下图片操作。
 - 同意协议并下一步
-[![0AmO9s.png](https://s1.ax1x.com/2020/09/27/0AmO9s.png)](https://imgchr.com/i/0AmO9s)
+![0AmO9s.png](https://s1.ax1x.com/2020/09/27/0AmO9s.png)
 - 指定NVM安装路径并下一步
-[![0AmX3n.png](https://s1.ax1x.com/2020/09/27/0AmX3n.png)](https://imgchr.com/i/0AmX3n)
+![0AmX3n.png](https://s1.ax1x.com/2020/09/27/0AmX3n.png)
 - 指定Nodejs安装路径并下一步
-[![0Amjcq.png](https://s1.ax1x.com/2020/09/27/0Amjcq.png)](https://imgchr.com/i/0Amjcq)
+![0Amjcq.png](https://s1.ax1x.com/2020/09/27/0Amjcq.png)
 
-[![0Amjcq.png](https://s1.ax1x.com/2020/09/27/0Amjcq.png)](https://imgchr.com/i/0Amjcq)
+![0Amjcq.png](https://s1.ax1x.com/2020/09/27/0Amjcq.png)
 
-[![0AmzuV.png](https://s1.ax1x.com/2020/09/27/0AmzuV.png)](https://imgchr.com/i/0AmzuV)
+![0AmzuV.png](https://s1.ax1x.com/2020/09/27/0AmzuV.png)
 
-[![0AnSBT.png](https://s1.ax1x.com/2020/09/27/0AnSBT.png)](https://imgchr.com/i/0AnSBT)
+![0AnSBT.png](https://s1.ax1x.com/2020/09/27/0AnSBT.png)
   
 
 ### 验证nvm安装
 
 1. <kbd>Win</kbd>+<kbd>R</kbd> 打开运行。
 2. 输入cmd
-[![0AnCEF.png](https://s1.ax1x.com/2020/09/27/0AnCEF.png)](https://imgchr.com/i/0AnCEF)
+![0AnCEF.png](https://s1.ax1x.com/2020/09/27/0AnCEF.png)
 3. 输入`nvm version` 如下图则证明安装成功。
-[![0AnPN4.png](https://s1.ax1x.com/2020/09/27/0AnPN4.png)](https://imgchr.com/i/0AnPN4)
+![0AnPN4.png](https://s1.ax1x.com/2020/09/27/0AnPN4.png)
 
 ### 添加淘宝镜像源
 
@@ -73,7 +72,7 @@ node_mirror:https://npm.taobao.org/mirrors/node/
 npm_mirror: https://npm.taobao.org/mirrors/npm/
 ```
 3. 保存settings.txt
-[![0AK2h4.png](https://s1.ax1x.com/2020/09/27/0AK2h4.png)](https://imgchr.com/i/0AK2h4)
+![0AK2h4.png](https://s1.ax1x.com/2020/09/27/0AK2h4.png)
 
 ## nvm使用
 ### 下载nodejs
@@ -82,16 +81,16 @@ npm_mirror: https://npm.taobao.org/mirrors/npm/
 ```bash
 nvm ls available
 ```
-[![0Ani4J.md.png](https://s1.ax1x.com/2020/09/27/0Ani4J.md.png)](https://imgchr.com/i/0Ani4J)
+![0Ani4J.md.png](https://s1.ax1x.com/2020/09/27/0Ani4J.md.png)
 2. 安装指定版本的node。
 ```bash
 nvm install 版本号
 # 如安装12.18.4版本
 nvm install 12.18.4
 ```
-[![0AnkC9.png](https://s1.ax1x.com/2020/09/27/0AnkC9.png)](https://imgchr.com/i/0AnkC9)
+![0AnkC9.png](https://s1.ax1x.com/2020/09/27/0AnkC9.png)
 3. 执行`nvm ls`查看已经安装的nodejs版本。
-[![0AnA3R.png](https://s1.ax1x.com/2020/09/27/0AnA3R.png)](https://imgchr.com/i/0AnA3R)
+![0AnA3R.png](https://s1.ax1x.com/2020/09/27/0AnA3R.png)
 
 ### 启用nodejs
 1. 启用上步骤安装的nodejs 使用以下命令直接切换到该版本的nodejs即可启用。至于为什么要这样做，答虽然安装了nodejs但是我们并没有告诉NVM要使用那个版本的nodejs。
@@ -100,11 +99,11 @@ nvm use 已安装nodejs版本号
 # 如使用12.18.4
 nvm use 12.18.4
 ```
-[![0AnEg1.png](https://s1.ax1x.com/2020/09/27/0AnEg1.png)](https://imgchr.com/i/0AnEg1)
+![0AnEg1.png](https://s1.ax1x.com/2020/09/27/0AnEg1.png)
 2. 输入`node -v` 查看当前的node版本。
-[![0AnVjx.png](https://s1.ax1x.com/2020/09/27/0AnVjx.png)](https://imgchr.com/i/0AnVjx)
+![0AnVjx.png](https://s1.ax1x.com/2020/09/27/0AnVjx.png)
 3. 输入`npm -v` 查看npm版本。
-[![0AnMUe.png](https://s1.ax1x.com/2020/09/27/0AnMUe.png)](https://imgchr.com/i/0AnMUe)
+![0AnMUe.png](https://s1.ax1x.com/2020/09/27/0AnMUe.png)
 4. 以上命令如果都正确执行则表示nodejs已经成功安装，可以正常使用了。
 
 ### 多版本nodejs切换
@@ -114,7 +113,7 @@ nvm use 12.18.4
 ```bash
 nvm ls
 ```
-[![0A1KVP.png](https://s1.ax1x.com/2020/09/27/0A1KVP.png)](https://imgchr.com/i/0A1KVP)
+![0A1KVP.png](https://s1.ax1x.com/2020/09/27/0A1KVP.png)
 
 2. 切换到另一个版本node。
 ```bash
@@ -124,7 +123,7 @@ nvm use 14.12.0
 ```
 
 3. 再次查看版本已经成功切换到了14版本。
-[![0AGnbR.png](https://s1.ax1x.com/2020/09/27/0AGnbR.png)](https://imgchr.com/i/0AGnbR)
+![0AGnbR.png](https://s1.ax1x.com/2020/09/27/0AGnbR.png)
 
 
 ### 卸载nodejs
@@ -133,7 +132,7 @@ nvm uninstall 版本号。
 # 如卸载10.22.1
 nvm uninstall 10.22.1
 ```
-[![0AnnHO.png](https://s1.ax1x.com/2020/09/27/0AnnHO.png)](https://imgchr.com/i/0AnnHO)
+![0AnnHO.png](https://s1.ax1x.com/2020/09/27/0AnnHO.png)
 
 
 ## npm配置淘宝镜像
@@ -142,7 +141,7 @@ nvm uninstall 10.22.1
 ```bash
 npm get registry
 ```
-[![0Z86F1.png](https://s1.ax1x.com/2020/09/29/0Z86F1.png)](https://imgchr.com/i/0Z86F1)
+![0Z86F1.png](https://s1.ax1x.com/2020/09/29/0Z86F1.png)
 
 **临时换源;**
 只有当前使用才生效，下次启动npm会自动恢复默认内置源。
@@ -154,14 +153,14 @@ npm --registry https://registry.npm.taobao.org install express
 ```bash
 npm config set registry https://registry.npm.taobao.org
 ```
-[![0Z8cJx.png](https://s1.ax1x.com/2020/09/29/0Z8cJx.png)](https://imgchr.com/i/0Z8cJx)
+![0Z8cJx.png](https://s1.ax1x.com/2020/09/29/0Z8cJx.png)
 
 配置后可通过下面方式来验证是否成功
 ```bash
 npm get registry
 ```
 
-[![0Z8gW6.png](https://s1.ax1x.com/2020/09/29/0Z8gW6.png)](https://imgchr.com/i/0Z8gW6)
+![0Z8gW6.png](https://s1.ax1x.com/2020/09/29/0Z8gW6.png)
 如果查看发现源改变则证明换源成功，赶紧试试安装一个包吧
 
 
@@ -181,7 +180,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```bash
 cnpm -v
 ```
-[![0AnKED.md.png](https://s1.ax1x.com/2020/09/27/0AnKED.md.png)](https://imgchr.com/i/0AnKED)
+![0AnKED.md.png](https://s1.ax1x.com/2020/09/27/0AnKED.md.png)
 
 以后再次安装包时，把npm换为cnpm即可。
 
